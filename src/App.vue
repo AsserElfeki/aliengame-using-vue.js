@@ -20,10 +20,10 @@
       </p>
 
       <button
-        class="button"
+        class="button btn"
         @click="pickCharacter"
       >
-        pick your character
+        PLAY !!
       </button>
     </GameStateStart>
 
@@ -255,6 +255,12 @@
     text-align: center;
     -webkit-appearance: none;
     -moz-appearance: none;
+  }
+
+  .btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   text {
